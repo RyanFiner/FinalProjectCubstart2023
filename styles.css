@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://img.freepik.com/premium-photo/blurred-colorful-wallpaper-background_976742-179.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #f5f1f1;
+  background-color: rgba(220, 138, 239, 0.7);
+  background-blend-mode: multiply;
+  font-size: 1.1em;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  color: black;
+}
+
+#head {
+  font-size: 1.8em;
+}
+
+#subheading {
+  font-size: 18px;
+  margin-top: 10px; 
+}
+
+#content1 {
+  width: 90%;
+  margin: auto; 
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding-top: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54%;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 10px;
+  padding-bottom: 60px;
+}
+
+form .box {
+  width: 98.5%;
+  height: 2.8em;
+  position: relative;
+  bottom: 10px;
+  border: 0;
+  border-radius: 5px;
+}
+
+#Content2 {
+  margin-top: 10px;
+}
+
+#Content2 textarea{
+width: 98.5%;
+height: 125px;
+position: relative;
+bottom: 17px;
+}
+button{
+  width: 98.5%;
+  height: 3em;
+  position: relative;
+  top: 11px;
+  background-color: rgb(18,219,78);
+  border: none;
+  color: rgb(255, 255, 2555);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+textarea::placeholder{
+  font-size: 1.4em;
+  position:relative;
+  top: 8px;
+  left: 5px;
+  width: 70%;
+}
+
+input.larger{
+width: 20px;
+height: 20px;
+}
+@media screen and (max-width: 600px) {
+  form{
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.btn-scale {
+    min-width: 44px;
+    width: 6%;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .btn-scale-asc-1, .btn-scale-desc-10 {
+    background-color: #33FF00;
+  }
+  
+  .btn-scale-asc-1:hover,
+  .btn-scale-desc-10:hover {
+    background-color: #2CDE00;
+  }
+  
+  .btn-scale-asc-2,
+  .btn-scale-desc-9{
+    background-color: #66FF00;
+  }
+  
+  .btn-scale-asc-2:hover,
+  .btn-scale-desc-9:hover{
+    background-color: #59DE00;
+  }
+  
+  .btn-scale-asc-3,
+  .btn-scale-desc-8 {
+    background-color: #99FF00;
+  }
+  
+  .btn-scale-asc-3:hover,
+  .btn-scale-desc-8:hover {
+    background-color: #85DE00;
+  }
+  
+  .btn-scale-asc-4,
+  .btn-scale-desc-7 {
+    background-color: #CCFF00;
+  }
+  
+  .btn-scale-asc-4:hover,
+  .btn-scale-desc-7:hover {
+    background-color: #B1DE00;
+  }
+  
+  .btn-scale-asc-5,
+  .btn-scale-desc-6 {
+    background-color: #FFFF00;
+  }
+  
+  .btn-scale-asc-5:hover,
+  .btn-scale-desc-6:hover {
+    background-color: #DEDE00;
+  }
+  
+  .btn-scale-asc-6,
+  .btn-scale-desc-5 {
+    background-color: #FFCC00;
+  }
+  
+  .btn-scale-asc-6:hover,
+  .btn-scale-desc-5:hover {
+    background-color: #DEB100;
+  }
+  
+  .btn-scale-asc-7,
+  .btn-scale-desc-4 {
+    background-color: #FF9900;
+  }
+  
+  .btn-scale-asc-7:hover,
+  .btn-scale-desc-4:hover {
+    background-color: #DE8500;
+  }
+  
+  .btn-scale-asc-8,
+  .btn-scale-desc-3 {
+    background-color: #FF6600;
+  }
+  
+  .btn-scale-asc-8:hover,
+  .btn-scale-desc-3:hover {
+    background-color: #DE5900;
+  }
+  
+  .btn-scale-asc-9,
+  .btn-scale-desc-2 {
+    background-color: #FF3300;
+  }
+  
+  .btn-scale-asc-9:hover,
+  .btn-scale-desc-2:hover {
+    background-color: #DE2C00;
+  }
+  
+  .btn-scale-asc-10,
+  .btn-scale-desc-1 {
+    background-color: #FF0000;
+  }
+  
+  .btn-scale-asc-10:hover,
+  .btn-scale-desc-1:hover {
+    background-color: #DE0000;
+  }
